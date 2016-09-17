@@ -21,7 +21,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $.ajax({
-        url: "http://slack-harryi3t.rhcloud.com/message",
+        url: "https://slack-harryi3t.rhcloud.com/message",
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({
